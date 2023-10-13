@@ -1,0 +1,89 @@
+name: Tarefa
+description: Tarefas mais gerais que não sejam bugs ou novas funcionalidades
+title: "[TASK]"
+labels: [task]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Objetivo da Tarefa**
+
+  - type: textarea
+    id: task-objective
+    attributes:
+      label: Descreva o que esta tarefa busca alcançar, de forma clara e concisa.
+      placeholder: Descreva o objetivo da tarefa aqui.
+
+  - type: markdown
+    attributes:
+      value: |
+        **Detalhes da Tarefa**
+
+  - type: textarea
+    id: task-details
+    attributes:
+      label: Liste os passos ou ações específicas que devem ser realizadas para completar esta tarefa.
+      placeholder: |
+        - Passo/Ação 1
+        - Passo/Ação 2
+        - Passo/Ação 3
+
+  - type: markdown
+    attributes:
+      value: |
+        **Critérios de Aceitação**
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Especifique os critérios que indicarão que a tarefa foi completada com sucesso.
+      placeholder: |
+        - Critério 1
+        - Critério 2
+        - Critério 3
+
+  - type: markdown
+    attributes:
+      value: |
+        **Recursos Necessários**
+
+  - type: textarea
+    id: necessary-resources
+    attributes:
+      label: Liste quaisquer recursos (como dados, ferramentas, pessoas) que serão necessários para completar a tarefa.
+      placeholder: Liste os recursos necessários aqui.
+
+  - type: markdown
+    attributes:
+      value: |
+        **Dependências**
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Liste outras tarefas, issues ou atividades que precisam ser concluídas antes que esta tarefa possa ser iniciada ou concluída.
+      placeholder: Liste as dependências aqui.
+
+  - type: markdown
+    attributes:
+      value: |
+        **Prazo**
+
+  - type: input
+    id: deadline
+    attributes:
+      label: Se houver um prazo para a conclusão da tarefa, indique-o aqui.
+      placeholder: Indique o prazo aqui.
+
+  - type: markdown
+    attributes:
+      value: |
+        **Contexto Adicional**
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Forneça qualquer contexto adicional, links, capturas de tela ou outros recursos que possam ser úteis.
+      placeholder: Adicione contexto adicional aqui.

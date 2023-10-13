@@ -1,0 +1,65 @@
+name: Reportar Bug
+description: Descreva o seu problema e nos ajude a melhorar
+title: "[BUG]"
+labels: [bug]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Descreva o bug**
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Uma descrição clara e concisa do que é o bug.
+      placeholder: Descreva o bug aqui.
+
+  - type: markdown
+    attributes:
+      value: |
+        **Como reproduzir**
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Passos para reproduzir o problema.
+      placeholder: |
+        1. Vá até '...'
+        2. Clique em '....'
+        3. Role a tela até '....'
+        4. Veja o erro
+
+  - type: markdown
+    attributes:
+      value: |
+        **Comportamento correto**
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Se aplicável, descreva o comportamento esperado.
+      placeholder: Descreva o comportamento esperado aqui.
+
+  - type: markdown
+    attributes:
+      value: |
+        **Capturas de tela**
+
+  - type: input
+    id: screenshots
+    attributes:
+      label: Se aplicável, adicione URLs de capturas de tela para ajudar a explicar seu problema.
+      placeholder: Adicione URLs de capturas de tela aqui.
+
+  - type: markdown
+    attributes:
+      value: |
+        **Contexto adicional**
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Adicione qualquer outro contexto sobre o problema aqui.
+      placeholder: Adicione contexto adicional aqui.
