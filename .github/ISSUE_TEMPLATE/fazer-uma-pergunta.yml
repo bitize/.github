@@ -1,0 +1,61 @@
+name: Fazer uma pergunta
+description: Diga sua dúvida, nós vamos te ajudar
+title: "[QUESTION]"
+labels: [question]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Qual é a sua dúvida?
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Uma descrição clara e concisa da questão que você tem.
+      placeholder: Escreva sua dúvida aqui.
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Por que você está fazendo essa pergunta?
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Forneça o contexto ou o problema que levou você a fazer esta pergunta.
+      placeholder: Escreva o contexto ou o problema aqui.
+
+  - type: markdown
+    attributes:
+      value: |
+        ### O que você já descobriu?
+
+  - type: textarea
+    id: discoveries
+    attributes:
+      label: Liste quaisquer recursos, documentações ou outras informações que você já consultou ao tentar responder a esta pergunta.
+      placeholder: Liste suas descobertas aqui.
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Há algo que não está claro?
+
+  - type: textarea
+    id: unclear
+    attributes:
+      label: Se há algum aspecto do problema ou questão que ainda está nebuloso para você, especifique aqui.
+      placeholder: Especifique os pontos nebulosos aqui.
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Contexto Adicional
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Adicione qualquer outro contexto, referências ou capturas de tela que possam ser úteis para entender a questão.
+      placeholder: Adicione contexto adicional aqui.
