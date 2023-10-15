@@ -14,7 +14,6 @@ Fixes #(Número da Issue)
 
 - [ ] Meu código segue as diretrizes de estilo deste projeto
 - [ ] Eu fiz uma autoavaliação do meu próprio código
-- [ ] Comentei meu código, principalmente em áreas difíceis de entender
 - [ ] Fiz as devidas atualizações na documentação
 - [ ] Minhas mudanças não geram novos warnings
 - [ ] Adicionei testes que provam que minha correção é eficaz ou que minha funcionalidade funciona
